@@ -1,0 +1,136 @@
+
+*  {
+margin: 0;
+padding: 0;
+font-family: Copperplate, Papyrus, fantasy;
+
+}
+body
+{
+display:flex;
+background-image: url("sky.avif");
+background-repeat:no-repeat;
+height: 90vh;
+width:90%;
+background-size: cover;
+background-position:center;
+
+}
+.header
+{
+position:fixed;
+top: 0;
+left: 0;
+right: 0;
+padding: 1px 100px; 
+display: flex;
+justify-content:space-between;
+align-items:center;
+color: white;
+}
+
+.logo
+{
+color: white;
+font-size: 20px;
+padding:0;
+}
+
+.navigation a
+{
+position:relative;
+font-size:1.2em;
+color:white;
+font-weidth;500;
+margin-left:60px;
+margin-right:50px;
+text-decoration:none;
+
+}
+
+.navigation a:hover
+{
+color:#fa5e37;
+}
+
+ 
+.wrapper {
+ position:relative;
+top: 150px;
+left: 600px;
+width:400px;
+height:440px;
+background: transparent;
+border: 2px solid white;
+border-radius:15px;
+backdrop-filter:blur(1px);
+box-shadow: 0 0 15px rgba(0,0,0,25);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+ 
+.form-box  h2 {
+
+font-size: 35px;
+color: white;
+text-align: center;
+
+}
+
+.input-box input {
+position:ralative;
+width:250px;
+height: 24px;
+border-color: white;
+border-radius:6px;
+background: transparent;
+}
+
+.input-box input:hover {
+background:white;
+border: none;
+
+}
+
+.link {
+font-size: .9em;
+font-weight:600;
+margin:15px 0 15px;
+display: flex;
+justify-content:space-between;
+}
+
+.link a  {
+color: black;
+text-decoration: none;
+}
+
+.link a:hover  {
+text-decoration: underline;
+
+
+}
+
+.btn  {
+width:100%;
+height:40px;
+bachground-color:white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+
+}
+
+.btn a {
+text-decoration: none;
+color:black;
+font-size:20px;
+}
+
+.btn:hover  {
+background: orange;
+}
+
